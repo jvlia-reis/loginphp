@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+	background-color: #f2f2f2;
+}
+
+
+.cad {
+	margin-top: 90px;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+.quadrado {
+	width: 15px;
+	height: 15px;
+	background: #bd02a4;
+	margin-left: 586px;
+	margin-top: -57px;
+	border-radius: 3px;
+	z-index: -1;
+  }
+
+fieldset {
+	border: none;
+	border-radius: 10px;
+	width: 270px;
+	height: 260px;
+	background-color: white;
+	outline: solid none;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.email {
+	margin-top: 30px ;
+	padding: 5px;
+}
+
+.senha {
+	margin-top: 30px ;
+	padding: 2px;
+}
+
+.input {
+	
+	border: none;
+	outline: none;
+	border-radius: 7px;
+	padding: 1em;
+	width: 300px;
+	background-color: #f2f2f2;
+	box-shadow: inset 2px 5px 10px rgba(124, 124, 124, 0.3);
+	transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+	background-color: white;
+	transform: scale(1.05);
+	box-shadow: 13px 13px 100px #969696,
+			   -13px -13px 100px #ffffff;
+  }
+
+.entrar {
+	border: none;
+	border-radius: 10px;
+	width: 70px;
+	height: 30px;
+	background-color: #9a0085;
+	color: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	cursor: pointer;
+	
+}
+
+.entrar:active {
+	background-color: #670159;
+	cursor: pointer;
+}
+
+.entrar:hover {
+	background-color: #670159;
+	cursor: pointer;
+}
+
+.cadastro {
+	border: none;
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	color:#9a0085;
+	cursor: pointer;
+}
+
+.cadastro:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}
+
+.botoes {
+	display: inline-block;
+}
+
+.esqueceusenha {
+	display: inline-block;
+	border: none;
+	background-color: transparent;
+	font-family: 'Roboto', sans-serif;
+	color:#9a0085;
+	cursor: pointer;
+}
+
+.esqueceusenha:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+}

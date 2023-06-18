@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+	background-color: #f2f2f2;
+}
+
+h1 {
+    margin-left: 0px;
+    margin-top: 90px;
+	color: black;
+    text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+fieldset {
+    position: fixed;
+	border: none;
+	border-radius: 10px;
+    margin-top: -80px;
+    margin-left: 500px;
+	width: 270px;
+	height: 130px;
+	background-color: white;
+	outline: solid none;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.input {
+	
+	border: none;
+	outline: none;
+    margin-top: 20px;
+	border-radius: 7px;
+	padding: 1em;
+	width: 300px;
+	background-color: #f2f2f2;
+	box-shadow: inset 2px 5px 10px rgba(124, 124, 124, 0.3);
+	transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+	background-color: white;
+	transform: scale(1.05);
+	box-shadow: 13px 13px 100px #969696,
+			   -13px -13px 100px #ffffff;
+  }
+
+
+  .enviar {
+    margin-left: 0px;
+    margin-top: 15px;
+	border: none;
+	border-radius: 10px;
+	width: 70px;
+	height: 30px;
+	background-color: #9a0085;
+	color: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	cursor: pointer;
+	
+}
+
+.enviar:active {
+	background-color: #670159;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background-color: #670159;
+	cursor: pointer;
+}
